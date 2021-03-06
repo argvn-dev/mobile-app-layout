@@ -1,0 +1,1 @@
+This is mobile app layout template
