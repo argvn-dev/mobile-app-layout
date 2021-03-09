@@ -1,4 +1,36 @@
-.card{
-  border: none;
-  border-radius: 16px;
+@import "_variable";
+@import "_mixin";
+@import "_function";
+@import "override/grid";
+@import "override/card";
+@import "override/button";
+@import "override/misc";
+@import "override/navbar-bottom";
+
+@font-face {
+  font-family: "Poppins";
+  src: url('/assets/fonts/Poppins-Regular.ttf');
+}
+
+html, body{
+  background-color: color(light);
+  overflow-x: hidden;
+  font-family: $font_family;
+}
+
+.product{
+  max-height: 83vh;
+  overflow-y: auto;
+  .card-body{
+    padding: 0px;
+  }
+  .card-footer{
+    text-align: center;
+    font-size: $text-sm;
+    padding: 2px;
+  }
+}
+.product-order{
+  height: 68vh;
+  max-height: 68vh;
 }

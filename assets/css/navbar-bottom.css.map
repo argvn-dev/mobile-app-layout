@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACZ,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,KAAK;EACf,gBAAgB,EAAE,YAAY;CAC/B",
+    "sources": [
+        "../../resources/scss/override/navbar-bottom.scss"
+    ],
+    "names": [],
+    "file": "navbar-bottom.css"
+}

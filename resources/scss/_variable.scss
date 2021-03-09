@@ -1,11 +1,11 @@
 $colors: (
-  primary:    		#6777ef,
+  primary:    		#939C4C,
   secondary:      #cdd3d8,
   success:        #47c363,
   info:           #3abaf4,
   warning:        #ffa426,
   danger:         #fc544b,
-  light:          #e3eaef,
+  light:          #F0F2F5,
   grey:  		      #868e96,
   whitesmoke:     #f7f9f9,
   dark:       		#191d21,
@@ -24,10 +24,12 @@ $colors: (
   // Utilities
   section_title_line: #6777ef,
 );
-
 $font_family:   'Poppins', 'Segoe UI', arial;
 $font_weight:   400;
 $font_size:     14px;
+$text-sm:10px;
+
+$shadow: 0px 5px 10px rgba(0,0,0,0.02);
 
 $grid-breakpoints: (
   xs: 0,
