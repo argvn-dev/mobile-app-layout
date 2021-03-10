@@ -197,8 +197,8 @@
 .btn-dark, .btn-dark.disabled {
   -webkit-box-shadow: 0 2px 6px color_lighten(dark, 40%);
           box-shadow: 0 2px 6px color_lighten(dark, 40%);
-  background-color: #191d21;
-  border-color: #191d21;
+  background-color: #050505;
+  border-color: #050505;
   color: #fff;
 }
 
@@ -216,7 +216,7 @@
           box-shadow: 0 2px 6px color_lighten(light, 1%);
   background-color: #F0F2F5;
   border-color: #F0F2F5;
-  color: #191d21;
+  color: #050505;
 }
 
 .btn-light:hover, .btn-light:focus, .btn-light:active, .btn-light.disabled:hover, .btn-light.disabled:focus, .btn-light.disabled:active {
@@ -414,7 +414,7 @@ a:not(.btn-social-icon):not(.btn-social):not(.page-link) .fab {
 }
 
 .bg-dark {
-  background-color: #191d21 !important;
+  background-color: #050505 !important;
 }
 
 .text-primary, .text-primary-all *, .text-primary-all *:before, .text-primary-all *:after {
@@ -450,7 +450,7 @@ a:not(.btn-social-icon):not(.btn-social):not(.page-link) .fab {
 }
 
 .text-dark, .text-dark-all *, .text-dark-all *:before, .text-dark-all *:after {
-  color: #191d21 !important;
+  color: #050505 !important;
 }
 
 .font-weight-normal {
@@ -502,6 +502,10 @@ p, ul:not(.list-unstyled), ol {
 
 .text-right {
   text-align: right;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .navbar-bottom {
